@@ -11,9 +11,26 @@ A simple CLI tool to manage Discord webhooks: info, delete and send messages.
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TRC-Loop/dchook?style=for-the-badge">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/TRC-Loop/dchook?style=for-the-badge">
   <img alt="GitHub License" src="https://img.shields.io/github/license/TRC-Loop/dchook?style=for-the-badge">
-
-
 </p>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Stack</strong><br>
+      <img alt="Skill Icons" src="https://skillicons.dev/icons?i=go,discord&perline=42&theme=dark">
+    </td>
+    <td align="center">
+      <strong>Runs on</strong><br>
+      <img alt="Skill Icons" src="https://skillicons.dev/icons?i=windows,apple,linux&perline=42&theme=dark">
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
 
 
 ---
