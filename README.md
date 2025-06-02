@@ -119,8 +119,7 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 
 ## Notes
 
-* The `info` command prints nicely formatted webhook details.
-* Use full webhook URLs for all commands.
+* I am not responsible for any damage done with this Software.
 * Make sure the webhook token is valid and you have permission to manage it.
 
 ---
