@@ -53,8 +53,9 @@ go build -o dchook
 **Windows**
 
 ```bash
-go build -o dchook.exe
+go build -ldflags="-s -w" -o dchook.exe
 ```
+> **Note:** ldflages are used becuase Windows Defender detects this as a False-Positive.
 
 3. (Optional) Add `dchook` to your PATH to use it anywhere:
 
