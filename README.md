@@ -2,6 +2,11 @@
 
 A simple CLI tool to manage Discord webhooks: info, delete and send messages.
 
+<p align="center">
+  <img src="https://github.com/TRC-Loop/dchook/blob/main/.github/assets/dcHook.svg" alt="dcHook Logo" width="350" />
+</p>
+
+
 ---
 
 ## Features
