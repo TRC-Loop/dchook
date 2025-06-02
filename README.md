@@ -1,2 +1,116 @@
 # dchook
-Manage Discord Webhooks using the CLI
+
+A simple CLI tool to manage Discord webhooks: info, delete and send messages.
+
+---
+
+## Features
+
+- Get webhook info
+- Delete a webhook
+- Send a message to a webhook
+
+---
+
+## Requirements
+
+- Go 1.19+ installed
+- Internet connection
+
+---
+
+## Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/TRC-Loop/dchook.git
+cd dchook
+````
+
+2. Build the executable:
+
+**Linux, MacOS**
+
+```bash
+go build -o dchook
+```
+
+**Windows**
+
+```bash
+go build -o dchook.exe
+```
+
+3. (Optional) Add `dchook` to your PATH to use it anywhere:
+
+**Linux, MacOS**
+
+* Move the executable to `/usr/local/bin` (or any folder in your PATH):
+
+```bash
+sudo mv dchook /usr/local/bin/
+```
+
+* Now you can run:
+
+```bash
+dchook --help
+```
+
+**Windows**
+
+* Move `dchook.exe` to a folder, for example `C:\Tools`
+
+* Add that folder to your PATH:
+
+  1. Open Start Menu > Search "Environment Variables" > Edit system environment variables
+  2. Click "Environment Variables"
+  3. Select "Path" under your system variables, then "Edit"
+  4. Click "New" and add `C:\Tools\` (or your folder)
+  5. Click OK on all dialogs
+  6. Restart your terminal or PowerShell
+
+* Now you can run:
+
+```powershell
+dchook.exe --help
+```
+
+---
+
+## Usage examples
+
+**Get webhook info:**
+
+```bash
+dchook info --url <webhook_url>
+```
+
+> **Note:** use `--raw` to get the Raw, Non-formatted JSON
+
+**Delete a webhook:**
+
+```bash
+dchook delete --url <webhook_url>
+```
+
+**Send a message:**
+
+```bash
+dchook send --url <webhook_url> -m "Hello from dchook!"
+```
+
+---
+
+## Notes
+
+* The `info` command prints nicely formatted webhook details.
+* Use full webhook URLs for all commands.
+* Make sure the webhook token is valid and you have permission to manage it.
+
+---
+
+## License
+
+MIT License
