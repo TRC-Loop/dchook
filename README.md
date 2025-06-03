@@ -102,6 +102,7 @@ dchook --help
   4. Click "New" and add `C:\Tools\` (or your folder)
   5. Click OK on all dialogs
   6. Restart your terminal or PowerShell
+	> **Note:** If it's still not working, restart your PC.
 
 * Now you can run:
 
