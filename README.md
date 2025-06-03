@@ -154,12 +154,10 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 ## ToDo
 
 * Command Line GUI (`dchook gui`)
-* Actual GUI?
+* Actual GUI? (In the Workings [@Franc0-dev](https://github.com/Franc0-dev)
 * More Options to save to file
 * More Debug Info (`--debug`)
 * Copy Info to clipboard (specific Info/all Info `--copy`)
-* Good Docs (McDocs?)
-* Installer/Installer Script
 * On Release: Build Executable for Linux/Mac
 
 ---
