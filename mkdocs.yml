@@ -1,3 +1,50 @@
 site_name: dcHook Docs
+site_url: https://trc-loop.github.io/dchook/
 theme:
   name: material
+  language: en
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Commands:
+    - Send: commands/send.md
+    - Version: commands/version.md
+    - Info: commands/info.md
+    - Delete: commands/delete.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TRC-Loop/dchook
+
+repo_url: https://github.com/TRC-Loop/dchook
+repo_name: dcHook
