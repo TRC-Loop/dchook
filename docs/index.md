@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Welcome to dcHook Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TRC-Loop/dchook/main/.github/assets/dcHook.svg" alt="dcHook Logo" width="350" />
+</p>
 
-## Commands
+<p align="center">
+  <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/TRC-Loop/dchook?style=for-the-badge&label=Latest%20Version">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TRC-Loop/dchook?style=for-the-badge">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/TRC-Loop/dchook?style=for-the-badge">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/TRC-Loop/dchook?style=for-the-badge">
+</p>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<p align="center">
+    dcHook is a CLI-Application to do a lot with Discord's Webhooks
+</p>

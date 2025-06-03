@@ -4,6 +4,7 @@ A simple CLI tool to manage Discord webhooks: info, delete and send messages.
 
 <p align="center">
   <img src="https://github.com/TRC-Loop/dchook/blob/main/.github/assets/dcHook.svg" alt="dcHook Logo" width="350" />
+  <br>
 </p>
 
 <p align="center">
@@ -11,10 +12,13 @@ A simple CLI tool to manage Discord webhooks: info, delete and send messages.
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TRC-Loop/dchook?style=for-the-badge">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/TRC-Loop/dchook?style=for-the-badge">
   <img alt="GitHub License" src="https://img.shields.io/github/license/TRC-Loop/dchook?style=for-the-badge">
+  <a href="https://trc-loop.github.io/dchook/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/docs-Visit%20Docs-blue?style=for-the-badge&logo=read-the-docs" alt="Docs" />
+</a>
 </p>
 
 <div align="center">
-
+  
 <table>
   <tr>
     <td align="center">
