@@ -90,6 +90,10 @@ sudo mv dchook /usr/local/bin/
 dchook --help
 ```
 
+```bash
+dchook version
+```
+
 **Windows**
 
 * Move `dchook.exe` to a folder, for example `C:\Tools`
@@ -159,3 +163,9 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 ## License
 
 MIT License
+
+--
+
+# Contributing
+
+Feel free to contribute!
