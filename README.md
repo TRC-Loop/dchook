@@ -142,6 +142,16 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 
 ---
 
+## ToDo
+
+* Command Line GUI (`dchook gui`)
+* Actual GUI?
+* More Options to save to file
+* More Debug Info (`--debug`)
+* Copy Info to clipboard (specific Info/all Info `--copy`)
+
+---
+
 ## License
 
 MIT License
