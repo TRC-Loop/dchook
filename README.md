@@ -150,6 +150,8 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 * More Debug Info (`--debug`)
 * Copy Info to clipboard (specific Info/all Info `--copy`)
 * Good Docs (McDocs?)
+* Installer/Installer Script
+* On Release: Build Executable for Linux/Mac
 
 ---
 
