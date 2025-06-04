@@ -1,6 +1,6 @@
 module github.com/TRC-Loop/dchook
 
-go 1.23.4
+go 1.20
 
 require (
 	github.com/gdamore/tcell/v2 v2.8.1
