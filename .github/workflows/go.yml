@@ -30,7 +30,7 @@ jobs:
             OUTPUT=bin/dchook-linux
           fi
           GOARCH=amd64
-          env GOOS=$GOOS GOARCH=$GOARCH go build -v -o $OUTPUT ./cmd/dchook
+          env GOOS=$GOOS GOARCH=$GOARCH go build -v -o $OUTPUT .
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v1
