@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/TRC-Loop/dchook/codeql.yml?branch=main&style=for-the-badge&label=codeql">
   <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/TRC-Loop/dchook?style=for-the-badge&label=Latest%20Version">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TRC-Loop/dchook?style=for-the-badge">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/TRC-Loop/dchook?style=for-the-badge">
