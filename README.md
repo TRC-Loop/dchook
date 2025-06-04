@@ -155,7 +155,6 @@ dchook send --url <webhook_url> -m "Hello from dchook!"
 
 ## ToDo
 
-* Command Line GUI (`dchook gui`)
 * Actual GUI? (In the Workings [@Franc0-dev](https://github.com/Franc0-dev)
 * More Options to save to file
 * More Debug Info (`--debug`)
