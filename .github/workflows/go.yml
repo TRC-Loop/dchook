@@ -1,40 +1,33 @@
-name: Go
+name: Build and Upload Release Assets
 
 on:
-  push:
-    tags:
-      - 'V*'
-
+  release:
+    types: [published]
 
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
+  build-and-upload:
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
           go-version: '1.20'
 
-      - name: Build
+      - name: Build Linux binary
         run: |
           mkdir -p bin
-          if [ "${{ matrix.os }}" = "windows-latest" ]; then
-            GOOS=windows
-            OUTPUT=bin/dchook-windows.exe
-          else
-            GOOS=linux
-            OUTPUT=bin/dchook-linux
-          fi
-          GOARCH=amd64
-          env GOOS=$GOOS GOARCH=$GOARCH go build -v -o $OUTPUT .
+          GOOS=linux GOARCH=amd64 go build -v -o bin/dchook-linux .
 
-      - name: Upload release asset
+      - name: Build Windows binary
+        run: |
+          mkdir -p bin
+          GOOS=windows GOARCH=amd64 go build -v -o bin/dchook-windows.exe .
+
+      - name: Upload binaries to release
         uses: softprops/action-gh-release@v1
         with:
           files: bin/*
