@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var version = "1.0.1-01"
+var version = "1.0.2-01"
 
 var offline bool
 var github = "TRC-Loop/dchook"
